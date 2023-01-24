@@ -33,8 +33,9 @@ main {
     height: 200px;
     background-size: cover;
     background-position: center center;
+    overflow: hidden;
     display: block;
-    transition: width .7s, height .7s;
+    transition: width 1.0s, height 1.0s;
     transition-timing-function: ease;
 }
 #login> #formulario {
@@ -80,7 +81,7 @@ main {
 background-color: #206d86;
 cursor: pointer;
 color: #1c12af;
-transition-duration: .4s;
+transition-duration: .5s;
 transform: scale(95%); 
  }
  .campo > input:focus-within {
