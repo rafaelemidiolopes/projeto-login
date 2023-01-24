@@ -34,10 +34,103 @@ main {
     background-size: cover;
     background-position: center center;
     display: block;
-    transition: width .5s, height .5s;
+    transition: width .7s, height .7s;
     transition-timing-function: ease;
 }
 #login> #formulario {
     padding: 10px;
     display: block;
+}
+ #formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+ }
+ #formulario > p {
+    font-size: 1em;
+    margin: 20px 0px;
+ }
+ 
+ form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 35px;
+    background-color: #97a9f7;
+    margin-top: 10px;
+    color: black;
+    border: 2px solid #004b91;
+    border-radius: 8px;
+    color: #1c12af;
+ margin-top: 0px;
+ }
+ div.campo > label {
+    display: none;
+ }
+  
+ form > div.campo {
+    background-color: #004b91;
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    margin: 5px 0px;
+    border: 2px solid #004b91;
+ }
+ form > input[type=submit]:hover {
+background-color: #206d86;
+cursor: pointer;
+color: #1c12af;
+transition-duration: .4s;
+transform: scale(95%); 
+ }
+ .campo > input:focus-within {
+    background-color: white;
+   
+ }
+ 
+    
+ 
+ form > a.botao {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 35px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin-top: 5px;
+    text-decoration: none;
+    border: 1px solid #0B3948;
+    color: #1c12af;
+    padding-top: 3px;
+
+ }
+ form > a.botao:hover {
+    background-color: #206d86;
+cursor: pointer;
+color: #1c12af;
+transition-duration: .4s;
+transform: scale(95%);
+ }
+ form > a.botao > i {
+    font-size: 1.4em;
+    
+ }
+
+ div.campo > i {
+    color: white;
+    /*background-color: black;*/
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+ }
+div.campo > input {
+    background-color: #b0d4f7;
+    font-size: 1em;
+    width: calc(100% - 38px);
+    height: 100%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+    transform: translateY(-12px);
 }
